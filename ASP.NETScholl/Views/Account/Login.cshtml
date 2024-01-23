@@ -1,0 +1,20 @@
+﻿@using ASP.NETScholl.ViewModels;
+@model LoginViewModel
+<h4>Login</h4>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="login">
+  <input type="hidden" asp-for="ReturnUrl" disabled />
+  <div class="form-group">
+    <label asp-for="UserName"></label>
+    <input type="text" asp-for="UserName" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label asp-for="Password"></label>
+    <input type="password" asp-for="Password" class="form-control" />
+  </div>
+  <div class="form-group">
+    <label asp-for="Remember">Remember? </label>
+    <input type="checkbox" asp-for="Remember" />
+  </div>
+  <button type="submit" class="btn btn-success mt-2">Log in </button>
+</form>

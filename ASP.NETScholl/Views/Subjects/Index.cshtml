@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Subject>                        //@ pro zapis C# jazyka...v tomto souboru je vse defaultne html
+
+<h3>List of subject</h3>
+@if (User.IsInRole("Teacher") || User.IsInRole("Admin")) {
+  <a class="btn btn-success mb-1" asp-action="Create">Create new</a>
+}
+@foreach (var subject in Model) {
+  <div class="border border-1 border-da p-2 rounded mb-1">
+    <h5>@subject.Name</h5>
+    @if (User.IsInRole("Teacher") || User.IsInRole("Admin")) {
+      <p>Id:@subject.Id</p>
+      <a class="btn btn-warning" asp-action="Edit" asp-route-id="@subject.Id">Edit</a>
+      <a class="btn btn-danger" asp-action="Delete" asp-route-id="@subject.Id">Delete</a>
+    }
+  </div>
+}

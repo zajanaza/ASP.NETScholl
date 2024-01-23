@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Student>                        //@ pro zapis C# jazyka...v tomto souboru je vse defaultne html
+
+<h3>List of students</h3>
+<a class="btn btn-success mb-1" asp-action="Create">Create new</a>
+
+@foreach (var student in Model) {
+  <div class="border border-1 border-da p-2 rounded mb-1">
+    <h5>@student.FirstName @student.LastName</h5>
+
+    <p>Id:@student.Id</p>
+    <p>Date of Birth: @student.DateOfBirth.ToShortDateString()</p>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@student.Id">Edit</a>
+    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@student.Id">Delete</a>
+
+  </div>
+}

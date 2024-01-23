@@ -1,0 +1,66 @@
+5/12 druhá půlka
+- Microsoft.AspNetCore.Identity.EntityFrameWorkCore - nainstalovat
+- do program.cz nad app.UseAuthorization() doplnit app.UseAuthentication();
+- vytvořit třídu AppUser, která dědí z IdentityUser a zůstává prázdná
+- třída ApplicationDbContext bude nově dědit je z IdentityDbContext<AppUser>
+- do programs přidat builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+- přidat migraci -> přidá se 7 tabulek
+- Script-DbContext ukáže skript DB
+- přidat class do View model - UserViewModel, do ní:
+public string Name { get; set; }
+public string Email { get; set; }
+public string Password { get; set; }
+
+- přidat Controller UsersController a do něj:
+ private UserManager<AppUser> userManager;
+
+- vygenerovat konstruktor
+
+- přidat:
+ public IActionResult Create() {
+   return View();
+ }
+
+- přidat složku do Views - Users
+- a tam přidat View "Create" a vytvořit...zkontrolovat zobrazení
+- vytvořit metodu Create v UsersController
+- vytvořit Index pro Users
+- přidat Users do Layout
+- přidat metodu Edit do UserControlleru
+- přidat view Edit
+- přidat metodu Delete do UsersController
+- přidat builder.Service.Configure do program.cs
+- přidat private IPasswordValidator<AppUser> passwordValidator; do UsersController a do Edit metody
+
+6/12
+- nastavit HomeController na přihlášení
+- nastavit Index.html Home na přihlášení
+- nad metodu Index v HomeControlleru přidat [Authorize]
+- přidat do ViewModel class LoginViewModel
+- přidat AccountController do Controllers, dat.složky userManager a signInManager a metodu Login
+- přidat složku Account do Views a tam nový Viem "Login"
+- přidat do AccountController metodu
+- přidat asynchronní Login metodu a nastavit uvnitř validaci přihlašovacích údajů
+- přidat asynchronní Logout metodu
+- přidat do Index tlačítko pro Logout
+- přidat Cookies do Program.cs 
+- přidat do Login checkbox "Remeber" a do LoginViewModel bool vlastnost Remember
+- přidat do Layout položku Roles
+- přidat controller RolesController
+- přidat složku Roles do View a tam view "Index"
+- vytvořit Create v Roles View
+- vytvořit metodu Delete v RolesController
+- přidat RoleEditViewModel
+- přidat RoleModificationViewModel
+- přidat metodu Edit do RoleControllers
+
+
+
+
+
+
+
+
+regulérní výraz pro email:
+[RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$",
+ErrorMessage = "E-mail is not valid")]

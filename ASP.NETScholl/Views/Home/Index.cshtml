@@ -1,0 +1,9 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Home Page";                  //jméno záložky webové stránky
+}
+<h1>Welcome!</h1>
+<div>
+    @Model
+</div>
+<a class="btn btn-info" asp-controller="Account" asp-action="Logout">Log out</a>                <!--tlačítko pro Logout-->
