@@ -65,9 +65,10 @@ C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\R
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\scopedcss\bundle\ASP.NETScholl.styles.css
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\scopedcss\projectbundle\ASP.NETScholl.bundle.scp.css
-C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETScholl.csproj.CopyComplete
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETScholl.dll
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\refint\ASP.NETScholl.dll
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETScholl.pdb
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETScholl.genruntimeconfig.cache
 C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ref\ASP.NETScholl.dll
+C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETScholl.sourcelink.json
+C:\Users\Jana\moje\programovani\výuka\ASP.NET\ASP.NETScholl\ASP.NETScholl\obj\Release\net6.0\ASP.NETS.D45A958A.Up2Date
