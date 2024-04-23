@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\asp.netscholl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|solutionrelative:asp.netscholl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|c:\\users\\jana\\moje\\programovani\\v\u00FDuka\\asp.net\\asp.netscholl\\asp.netscholl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|solutionrelative:asp.netscholl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\asp.netscholl\\asp.netscholl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{89FC6C21-98A0-4176-87D9-F0C8F904C6EA}|ASP.NETScholl\\ASP.NETScholl.csproj|solutionrelative:asp.netscholl\\asp.netscholl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,49 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ASP.NETScholl",
-              "DocumentMoniker": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\ASP.NETScholl.csproj",
-              "RelativeDocumentMoniker": "ASP.NETScholl\\ASP.NETScholl.csproj",
-              "ToolTip": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\ASP.NETScholl.csproj",
-              "RelativeToolTip": "ASP.NETScholl\\ASP.NETScholl.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-06T07:46:08.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\Program.cs",
-              "RelativeDocumentMoniker": "ASP.NETScholl\\Program.cs",
-              "ToolTip": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\Program.cs",
-              "RelativeToolTip": "ASP.NETScholl\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAACQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T20:20:25.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\appsettings.json",
-              "RelativeDocumentMoniker": "ASP.NETScholl\\appsettings.json",
-              "ToolTip": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\ASP.NET\\ASP.NETScholl\\ASP.NETScholl\\appsettings.json",
-              "RelativeToolTip": "ASP.NETScholl\\appsettings.json",
-              "ViewState": "AQIAAAIAAAA0MzMzM5MwwA4AAAD1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-05T20:10:42.115Z",
-              "EditorCaption": ""
             }
           ]
         },

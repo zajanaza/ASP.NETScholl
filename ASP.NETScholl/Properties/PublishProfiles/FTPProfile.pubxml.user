@@ -8,7 +8,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <EncryptedPassword>
     </EncryptedPassword>
     <_PublishTargetUrl>ftp://firstApp.somee.com/www.firstApp.somee.com</_PublishTargetUrl>
-    <History>True|2024-03-07T18:19:05.5027232Z;False|2024-03-07T18:55:44.7823830+01:00;False|2024-03-07T18:50:49.1199244+01:00;False|2024-03-06T15:45:40.6382490+01:00;True|2024-03-06T09:04:19.7614678+01:00;False|2024-03-06T08:53:54.0483798+01:00;True|2024-03-05T20:18:12.2524635+01:00;True|2023-12-10T20:25:54.1113607+01:00;</History>
+    <History>True|2024-04-23T08:28:43.8997265Z;True|2024-03-07T19:19:05.5027232+01:00;False|2024-03-07T18:55:44.7823830+01:00;False|2024-03-07T18:50:49.1199244+01:00;False|2024-03-06T15:45:40.6382490+01:00;True|2024-03-06T09:04:19.7614678+01:00;False|2024-03-06T08:53:54.0483798+01:00;True|2024-03-05T20:18:12.2524635+01:00;True|2023-12-10T20:25:54.1113607+01:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -19,19 +19,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/06/2024 11:11:13</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>03/07/2024 19:12:30</publishTime>
+      <publishTime>04/23/2024 10:24:11</publishTime>
     </File>
     <File Include="ASP.NETScholl.deps.json">
-      <publishTime>03/07/2024 19:12:29</publishTime>
+      <publishTime>04/23/2024 10:24:10</publishTime>
     </File>
     <File Include="ASP.NETScholl.dll">
-      <publishTime>03/07/2024 19:12:07</publishTime>
+      <publishTime>04/23/2024 10:23:05</publishTime>
     </File>
     <File Include="ASP.NETScholl.exe">
-      <publishTime>03/07/2024 19:12:07</publishTime>
+      <publishTime>04/23/2024 10:23:05</publishTime>
     </File>
     <File Include="ASP.NETScholl.pdb">
-      <publishTime>03/07/2024 19:12:07</publishTime>
+      <publishTime>04/23/2024 10:23:05</publishTime>
     </File>
     <File Include="ASP.NETScholl.runtimeconfig.json">
       <publishTime>03/05/2024 19:58:49</publishTime>
@@ -154,10 +154,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/15/2019 09:56:52</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>03/07/2024 19:12:29</publishTime>
+      <publishTime>04/23/2024 10:24:10</publishTime>
     </File>
     <File Include="wwwroot/ASP.NETScholl.styles.css">
-      <publishTime>12/08/2023 13:28:57</publishTime>
+      <publishTime>08/12/2023 13:28:57</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>11/29/2023 08:27:45</publishTime>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.NETScholl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e454b20d4de79fae5dcdcdad815215317f63edda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16fdfcda25cb2d497e20cffcbc0d627708db75c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.NETScholl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.NETScholl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
